@@ -3,7 +3,7 @@ import './WheelG.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import wheel1 from "../assets/wheel1.png"
-// import wheel2 from "../assets / Wheel2.png"
+import wheel2 from "../assets / Wheel2.png"
 import wheel3 from "../assets/wheel3.png"
 function WheelG() {
     return (
@@ -24,9 +24,9 @@ function WheelG() {
                         <img src={wheel1} alt="Wheel Greasing" width="500" />
                     </div>
 
-                    {/* <div className="carousel-item">
+                    <div className="carousel-item">
                         <img src={wheel2} alt="Wheel Greasing" width="500" />
-                    </div> */}
+                    </div>
 
                     <div className="carousel-item">
                         <img src={wheel3} alt="Wheel Greasing" width="500" />
