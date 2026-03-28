@@ -1,0 +1,38 @@
+.wheel-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    /* line-height: 1.6; */
+    background-color: rgb(253, 252, 251);
+    cursor: pointer;
+}
+
+.wheel-container h1 {
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+/* .wheel-container ul, */
+.wheel-container ol {
+    margin-left: 20px;
+}
+
+.carousel img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .carousel img {
+        height: 200px;
+        border-radius: 10%;
+        border-color: rgb(184, 11, 11);
+    }
+}
+
+.text-center1 {
+    text-shadow: 2px 2px 4px #918a8a;
+    color: rgb(249, 94, 4);
+}

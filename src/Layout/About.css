@@ -1,0 +1,22 @@
+.about-section {
+    padding: 60px;
+    padding-top: 20px;
+}
+
+.about-carasouls img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+
+    .about-carasouls img {
+        height: 200px;
+    }
+
+    .about-section h1 {
+        font-size: 40px;
+    }
+
+}

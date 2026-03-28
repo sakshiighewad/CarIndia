@@ -1,0 +1,14 @@
+.card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    /* set the image */
+    padding: 10px;
+
+
+}
+
+.card-img:hover {
+    background-color: #eebb89;
+    /* cursor: pointer; */
+}

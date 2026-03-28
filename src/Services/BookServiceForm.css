@@ -1,0 +1,196 @@
+  /* Background overlay */
+  .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.6);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      z-index: 1000;
+  }
+
+  /* Form box */
+  .modal-content {
+      background: #f57c00;
+      width: 420px;
+      max-height: 90vh;
+      padding: 20px;
+      border-radius: 10px;
+
+      overflow-y: auto;
+      /* Scroll inside form */
+  }
+
+  /* Inputs */
+  .detail {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      border-radius: 6px;
+      border: none;
+  }
+
+  /* Service checkbox grid */
+  .service-type {
+      margin-bottom: 10px;
+  }
+
+  .service-option {
+      display: block;
+      background: #eee;
+      padding: 8px;
+      margin-bottom: 6px;
+      border-radius: 6px;
+  }
+
+  /* Buttons */
+  .submit-btn {
+      background: green;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-right: 10px;
+      border-radius: 5px;
+  }
+
+  .close-btn {
+      background: red;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+  }
+
+  /* Scrollbar */
+  .modal-content::-webkit-scrollbar {
+      width: 6px;
+  }
+
+  .modal-content::-webkit-scrollbar-thumb {
+      background: #333;
+      border-radius: 10px;
+  }
+
+  /* .modal {
+  position: fixed;
+
+  padding: 30%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  border-radius: 15px;
+
+  }
+
+  */
+  /* Desktop */
+  /* .modal-content {
+      background: rgb(229, 123, 17);
+
+      padding: 10%;
+
+      border-radius: 10px;
+      width: 80%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  } */
+
+  /* Inputs */
+  /* .modal-content input,
+  .modal-content select,
+  .modal-content textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+  }
+
+
+  .detail:hover {
+      cursor: pointer;
+      border-color: #036ad8;
+      background: #e8f0ff;
+  }
+
+  .submit-btn:hover {
+      background-color: #c2d4db;
+
+  }
+
+  .close-btn:hover {
+      background-color: #c2d4db;
+
+  }
+
+
+  /* 📱 Mobile View */
+  /*@media (max-width: 600px) {
+
+      .modal-content {
+          width: 90%;
+          padding: 10px;
+      }
+
+      .modal-content h2 {
+          font-size: 20px;
+          text-align: center;
+      }
+
+      .modal-content input,
+      .modal-content select,
+      .modal-content textarea {
+          padding: 8px;
+          font-size: 14px;
+      }
+
+  }
+
+
+
+  .service-type {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      gap: 15px;
+      margin-top: 15px;
+  }
+
+  .service-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #f8f8f8;
+      cursor: pointer;
+      /* transition: 0.3s; */
+  /*
+  }
+
+  .service-option:hover {
+      background: #e8f0ff;
+      border-color: #007bff;
+  }
+
+  .service-option input {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+  }
+
+  .service-option span {
+      font-size: 15px;
+      font-weight: 500;
+  }
+
+  */
